@@ -19,6 +19,7 @@ services:
     volumes:
       - open-webui:/app/backend/data
       # - ./backend/open_webui/utils/images/comfyui.py:/app/backend/open_webui/utils/images/comfyui.py
+      - ./backend/open_webui/config.py:/app/backend/open_webui/config.py
     # depends_on:
     #   - ollama
     ports:
