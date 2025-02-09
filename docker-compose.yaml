@@ -18,6 +18,7 @@ services:
     container_name: open-webui
     volumes:
       - open-webui:/app/backend/data
+      # - ./backend/open_webui/utils/images/comfyui.py:/app/backend/open_webui/utils/images/comfyui.py
     # depends_on:
     #   - ollama
     ports:
